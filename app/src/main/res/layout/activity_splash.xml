@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/avani"
+    android:orientation="horizontal"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/mit"/>
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/splash1"
+        android:textStyle="bold|italic"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="#ddd"
+        android:text="MIT Bus Route App\n\n\nPOWERED BY RUNSHAW"/>
+    <ImageView
+        android:id="@+id/i"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/runshaw"
+        android:layout_below="@+id/t"/>
+
+</RelativeLayout>

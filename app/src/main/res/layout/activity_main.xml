@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:background="@drawable/avani"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mit"/>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_below="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#ddd"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:textColor="#ddd"
+            android:text="Maharaja institiue of technology is a co-educational engineeering college the insitute is approved by the all india council for tenchical education and is affliated with the visvesvaraya technological university it was founded in 2007 and is located in mysore"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic|bold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:text="keyhighlights"
+            android:textStyle="bold"
+            android:textColor="#ddd"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:textColor="#ddd"
+            android:text="        * Maharaja institue of technology is a co-educatinal engineering college the institue is approved"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t4"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:textColor="#ddd"
+            android:text="        * The college give human values with the best quality of higher education"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t5"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:textColor="#ddd"
+            android:text="         * The college organizes many workshops events for the students which make them confidents"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t6"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:textColor="#ddd"
+            android:text="         * The college offers bus facilities in and out of mandya and mysore districts"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t7"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="#3446eb"
+            android:text="@string/link"/>
+    </RelativeLayout>
+</ScrollView>

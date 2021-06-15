@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/avani"
+    android:paddingBottom="20dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/mit"
+            />
+
+        <TextView
+            android:id="@+id/br"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/logo"
+            android:textColor="#ddd"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+            android:text="Bus Route:-" />
+        <Spinner
+            android:id="@+id/bus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/br"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dialog"/>
+
+        <TextView
+            android:id="@+id/textViewnext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bus"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:onClick="tvnext"
+            android:text="Next"
+            android:textColor="#fff"
+            android:background="#000"
+            android:textSize="25dp" />
+    </RelativeLayout>
+</ScrollView>
